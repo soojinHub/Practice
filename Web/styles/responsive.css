@@ -1,0 +1,104 @@
+/*responsive.css*/
+/*media query for display: over 500 */
+
+@media screen and (min-width:31.25em){
+  header h1, .head{
+    font-size: 30px;
+    margin: 0.1em;
+    padding: 0.1em;
+  }
+.company{margin:0.5em;}
+
+#hr{clear: both;}
+#section1{
+  width:45%;
+}
+#section2{
+  width:45%;
+}
+#container{display: block;}
+#labimg{width:100%;}
+aside{font-size: 10px; float:none; width:100%}
+#table{width:100%;}
+article{
+  min-width: 600px;
+}
+
+}
+
+
+
+/*media query for display: under 500px*/
+@media screen and (max-width:31.25em){
+header h1, .head{
+  font-size: 20px;
+  padding: 0.3em;
+  margin: 0.3em;
+}
+div.company{margin:0.1em 1em;}
+#index_div{margin:0.1em 1em;}
+#title {margin: 0.1em; padding: 0.1em;}
+#indeximg {width:100%; float:none; padding:0;}
+#logo {display: none;}
+header{margin:0.2em; padding:0.2em;}
+nav{margin:0.1em 0.8em 0.1em 0.1em; padding: 0.1em;box-sizing: border-box; height: auto;}
+nav a{text-align: center; font-size: 13px; margin:0.1em; padding: 0.1em; border-radius:0.3em;}
+#section1, #section2{
+  margin: 0;
+  float: none;
+  width:100%
+}
+#joinhead{margin: 0.1em; padding: 0.1em;}
+#container{display: block;}
+img{
+  display: block;
+  margin: 0;
+}
+#container{padding:0; margin: 0;}
+#labfig{margin: 0.1em; padding: 0em; width:90%;}
+#labimg{width:100%; margin: 1em;}
+#joinhead{width:90%; margin:0 0.75em;}
+article{
+  min-width:100%
+}
+aside{display: none;}
+}
+.join{display: run-in;}
+#section1{
+  width:90%;
+}
+#section2{
+  width:90%;
+}
+
+div.form{margin:1em;}
+#idskills{width: 80%;}
+
+#table{width:60%; margin:0em 3em;}
+#tabletitle{margin:1em 0em 0em 0em;}
+th, td{font-size: 13px; width:60%;}
+
+dl div {display: block; width: 80%;}
+dl dd, dl dt {display: block; width: 40%; font-size: 13px;}
+dl dt{width:25%;}
+dl.dic {
+  min-width: 50em;
+  margin-top: 0em;
+  margin-bottom: 0.1em;
+  margin-left: 0em;
+  margin-right: 0em;}
+
+#profile {
+    float: none;
+    border: 1px solid #ddd;
+    margin: 0.5em;
+    max-width: 80%;
+    width: 50em;}
+article.about{margin: 1em;}
+article.enhancements{margin: 1em; width:80%;}
+article.enhancements ol{padding:0 2em;}
+
+footer {
+  font-size:11px;
+  padding: 0.5em 1em;
+  margin: 0.3em;}

@@ -1,0 +1,191 @@
+/*filename: style.css
+author: Soojin Lee
+created: 03.04.2019
+last modified: 03.04.2019
+description: html fire it regers to*/
+*{font-family: cursive;}
+p {margin-left: 2em; margin-right: 2em;}
+h2{margin-left: 1em; margin-right: 2em;}
+.head{margin-bottom: 1em;}
+.active{background-color: lightpink}
+header {
+  margin: 2em;
+  padding: 2em 2em 0.5em 2em;
+  border-radius: 1em;
+  background-color: #f1f1f1;}
+#hr{clear: both; margin:0.5em;}
+#logo { text-align: left;
+  width:40px;
+  margin: 1.5em 0.2em 0.0em 1.5em;}
+#title {margin-right: 2em;}
+#index_div{margin:3em;}
+
+h1{font-family: sans-serif;}
+nav{margin: 1em; float: right; padding: 0.1em; box-sizing: border-box; height: auto;}
+nav a {
+  box-sizing: border-box; height: auto;
+  color: black; font-family: sans-serif; text-decoration: none; padding:0.2em 0.6em;
+  border:1px solid darkgray; background-color: mistyrose; border-radius: 9px;
+ margin: 0.2em 0em 0.5em 0.2em;
+  float: none;}
+.logout{
+ font-family: sans-serif;
+  text-decoration: none; box-sizing: border-box; border:none;
+  border-radius: 4px; margin: 0.5em 0.5em 1em 0em;
+  background-color: #EAEAEA;
+  color: black;
+  padding: 4px 20px;
+}
+.manage{  box-sizing: border-box; height: auto;
+  color: black; font-family: sans-serif; text-decoration: none; padding:0.05em 0.2em;
+  border:2px solid darkgray; border-radius: 4px; margin: 0.5em 0.1em;
+}
+td {padding: 0.5em;}
+#manage_status{font-size: smaller;}
+#hello{ margin: 0.5em;}
+#hellodiv {float: right; margin: 0 4em 0 0; }
+.logout:hover { background-color: #BBBBBB;}
+#login {margin: 4em;}
+#logo, #title, nav, nav a {display: inline;}
+
+/* Change color on hover */
+.nav a:hover {
+  background-color: #ffd9b3;
+  color: black;
+}
+
+#indeximg {
+    float: right;
+    width: 60%;
+    padding: 15px;}
+#section1, #section2{margin-left: 3em;}
+
+
+dl div {display: flex; flex-direction: row; max-width: 80%;}
+dl dd, dl dt {display: inline; width: 40%;}
+dl dt{width:25%;}
+dl.dic {
+  min-width: 200em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 0em;}
+
+
+#container {display: flex; flex-direction: row; width:100%;}
+aside{
+  box-sizing: border-box;
+  margin: 1em 3em 1em 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0em 1em;
+  width: 25%; height: auto;
+  float: right;}
+
+#labimg {
+  box-sizing: border-box;
+  margin: 0em 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+}
+
+#joinhead{
+  box-sizing: border-box;
+  margin: 0em 2em 0em 2em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  max-width: 100%;}
+
+article.join{display:flex; margin: 0em 2em;}
+div.join{width: 100%;}
+
+/* Create three equal columns that floats next to each other */
+#section1, #section2 {
+  float: left;
+  padding: 15px;
+}
+
+/*assign2*/
+#confirm_age, #confirm_postcode, #confirm_skill {
+  color: red;
+}
+
+#sec{margin: 0 0 0 3em; color: red;}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .Join {
+    width: 100%;
+  }
+}
+
+
+article.about{margin: 3em;}
+article.enhancements{margin: 3em;}
+#profile {
+  float: right;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 25%;
+  height: auto;}
+
+
+#table {clear: both; justify-content: center; margin:2em; }
+table, th, td{
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #ffe4e1;}
+th {font-weight: bold;
+background-color: #ffb6c1;}
+th, td{width:21em;}
+td:nth-child(1) {width:10em;}
+#tabletitle{clear:both; }
+
+#applist {clear: both; margin: 1em 4em; }
+#manage_search, #manage_delete {margin: 0 4em;}
+
+
+footer {
+  font-size: smaller;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 2em;
+  border-radius: 1em;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #f1f1f1;
+  clear:both;
+}
+
+
+input[type=text], select {
+  padding: 4px 15px;
+  margin: 4px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.applybutton, input[type=submit] {
+  background-color: lightpink;
+  text-decoration: none;
+  color: white;
+  padding: 4px 20px;
+  margin: 4px 30px;
+  margin-right: 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.applybutton:hover, input[type=submit]:hover {
+  background-color: palevioletred;
+  text-decoration: none;
+}
+#jobtitle1, #jobhref1{display: inline;}
+#jobtitle2, #jobhref2{display: inline;}
+
+.logout, #hello {display: inline;}
